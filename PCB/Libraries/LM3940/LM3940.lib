@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM3940
+#
+DEF LM3940 U 0 40 N N 1 L N
+F0 "U" -200 301 50 H V L BNN
+F1 "LM3940" 100 -100 50 H V L BNN
+F2 "TO220" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -200 0 200 0 N
+P 2 0 0 16 200 0 200 300 N
+P 2 0 0 16 200 300 -200 300 N
+P 2 0 0 16 -200 300 -200 0 N
+T 0 -80 30 60 0 0 0 GND Normal 0 L B
+T 0 -175 175 60 0 0 0 IN Normal 0 L B
+T 0 25 175 60 0 0 0 OUT Normal 0 L B
+X ~ 1 -300 200 100 R 40 40 0 0 I 
+X ~ 2 0 -100 100 U 40 40 0 0 I 
+X ~ 3 300 200 100 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
