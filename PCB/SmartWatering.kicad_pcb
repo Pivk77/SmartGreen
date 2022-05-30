@@ -980,7 +980,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 341f46b6-ee20-4dfd-b5be-36e8f1721183)
     )
-    (fp_text value "Power_Screw_Terminal" (at 1.27 4.16 90) (layer "F.Fab")
+    (fp_text value "Power_Screw_Terminal" (at -3.2238 0.0011) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 093ab56e-23b8-45ea-a2e1-bf3156c2dc0d)
     )
